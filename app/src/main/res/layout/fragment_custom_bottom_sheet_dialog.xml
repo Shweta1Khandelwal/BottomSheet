@@ -1,0 +1,30 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="560dp"
+    android:background="@android:color/holo_red_dark"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottomSheetLayout"
+    android:padding="@dimen/activity_vertical_margin"
+    app:behavior_hideable="true"
+    app:layout_behavior="@string/bottom_sheet_behavior"
+    tools:context="com.iskylar.shweta.bottomsheet.CustomBottomSheetDialogFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/bottomSheetHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="@string/text_dialog_bottom_sheet"
+        android:textAppearance="@android:style/TextAppearance.Large" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:textColor="@android:color/white"
+        android:paddingTop="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:text="@string/text_welcome_message"
+        android:textAppearance="@android:style/TextAppearance.Large" />
+</FrameLayout>
